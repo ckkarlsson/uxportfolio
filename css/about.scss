@@ -1,0 +1,41 @@
+.about-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+    div {
+        width: 30%;
+        margin: 30px;
+        text-align: center;
+
+        h2, h4 {
+            font-family: 'Tinos', serif;
+            font-weight: 500;
+
+        }
+
+        h4 {
+            font-style: italic;
+        }
+
+        img {
+            padding-top: 20px;
+            border-radius: 50%;
+            height: 340px;
+            width: 340px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .about-main {
+        flex-direction: column;
+
+        div {
+            width: 100%;
+        }
+    }
+}

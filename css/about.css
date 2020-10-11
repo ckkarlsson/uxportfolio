@@ -1,0 +1,46 @@
+.about-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 60px;
+}
+
+.about-main div {
+  width: 30%;
+  margin: 30px;
+  text-align: center;
+}
+
+.about-main div h2, .about-main div h4 {
+  font-family: 'Tinos', serif;
+  font-weight: 500;
+}
+
+.about-main div h4 {
+  font-style: italic;
+}
+
+.about-main div img {
+  padding-top: 20px;
+  border-radius: 50%;
+  height: 340px;
+  width: 340px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-main div {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=about.css.map */
