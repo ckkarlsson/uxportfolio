@@ -71,21 +71,20 @@
        }
    }
 }
-
-
 @media only screen and (max-width: 1024px) {
     .about-main {
         flex-direction: column-reverse;
         div {
-            width: 100%;
+            width: 80%;
             margin-top: -30px;
             padding: 0;
+          
        }
    }
     .work-main {
         flex-direction: column;
         div {
-            width: 100%;
+            width: 80%;
             padding-left: 30px;
        }
    }
