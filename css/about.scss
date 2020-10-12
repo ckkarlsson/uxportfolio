@@ -2,36 +2,28 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
-
     div {
         width: 30%;
         margin: 30px;
         text-align: center;
-
         h2, h4 {
             font-family: 'Tinos', serif;
             font-weight: 500;
-
-        }
-
+       }
         h4 {
             font-style: italic;
-        }
-
+       }
         p {
             font-weight: lighter;
-        }
-
+       }
         p:last-of-type {
             font-weight: bold;
             margin-bottom: 3px;
-        }
-
+       }
         a {
             text-decoration: underline;
             color: #f879c9;
-        }
-
+       }
         img {
             padding-top: 20px;
             border-radius: 50%;
@@ -39,82 +31,62 @@
             width: 340px;
             -o-object-fit: cover;
             object-fit: cover;
-        }
-    }
+       }
+   }
 }
-
-
-
 .work-main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     div {
         width: 20%;
-
         h2 {
             font-family: 'Tinos', serif;
             letter-spacing: 1px;
             font-weight: 500;
-        }
-
+       }
         ul{
             list-style: none;
             padding: 0;
-
             a {
                 text-decoration: none;
                 color: black;
-            }
-
-        }
-
-    }
-
+           }
+       }
+   }
     div:last-child {
-
         a {
             color: black;
             margin-bottom: 1px;
             text-decoration: none;
-        }
-
+       }
         li:first-of-type {
             font-style: italic;
             font-weight: 600;
             font-family: 'Tinos', serif;
             letter-spacing: 0.5px;
-
-        }
-        
+       }
         li:last-of-type {
             font-weight: bold;
-
-        }
-    }
+       }
+   }
 }
-
 
 
 @media only screen and (max-width: 1024px) {
     .about-main {
         flex-direction: column-reverse;
-
         div {
             width: 100%;
             margin-top: -30px;
             padding: 0;
-
-        }
-    }
-
+       }
+   }
     .work-main {
         flex-direction: column;
-
         div {
             width: 100%;
             padding-left: 30px;
-        }
-    }
+       }
+   }
 }

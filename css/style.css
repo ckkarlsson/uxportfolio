@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
@@ -8,6 +9,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: 'Nunito', sans-serif;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='72' viewport='0 0 100 100' style='fill:black;font-size:36px;'><text y='50%'>🛸</text></svg>") 16 0, auto;
 }
 
 .header {
@@ -62,7 +64,7 @@ html, body {
 }
 
 .main-nav ul a:hover, .main-nav ul a:focus {
-  color: pink;
+  color: #f879c9;
 }
 
 .projects-main {
@@ -85,8 +87,9 @@ html, body {
           box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
 }
 
-.projects-main div:hover {
+.projects-main div:hover, .projects-main div .overlay-text {
   opacity: 0.3;
+  visibility: visible;
 }
 
 .projects-main div h4, .projects-main div p {
@@ -108,6 +111,15 @@ html, body {
   vertical-align: middle;
   -webkit-box-shadow: 0 2px 8px -2px gray;
           box-shadow: 0 2px 8px -2px gray;
+}
+
+.projects-main div .overlay-text {
+  position: relative;
+  left: 0px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  visibility: hidden;
 }
 
 .line {
@@ -133,7 +145,7 @@ html, body {
 }
 
 .profile-links i:hover {
-  color: #fff568;
+  color: #f879c9;
 }
 
 footer {
