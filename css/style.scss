@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 html, body {
     margin: 0px;
@@ -54,17 +54,94 @@ html, body {
       }
   }
 
- 
- 
- 
- 
-  i {
-    color: black;
-    margin-top: 20px;
-    font-size: 40px;
-    padding: 10px;
+  .projects-main {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 20px;
+
+      div {
+          width: 40%;
+          margin: 20px;
+          border-radius: 0.25rem;
+          box-shadow: 0 20px 40px -14px rgba(0,0.25,0.25,0.50);
+          &:hover { 
+            opacity: 0.3;
+        }
+
+        h4, p {
+            margin-left: 4px;
+        }
+
+        p {
+            margin-top: -14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+
+          img {
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+            box-shadow: 0 2px 8px -2px gray;
+
+        
+          }
+      }
   }
+
+
+  .line {
+    margin: 3rem;
+    border-top: 1px solid #8a8a8a;
+}
+
+  .profile-links {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+    i {
+        color: black;
+        margin-top: 20px;
+        font-size: 40px;
+        padding: 10px;
+      }
+      
+      i:hover {
+        color: #fff568;
+      }
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+ 
+@media only screen and (max-width: 1024px) {
+
+    .header {
+        h4 {
+            font-size: 14px;
+        }
+
+    }
+
+    .projects-main {
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            width: 80%;
+            padding: 0;
+        }
+    }
+} 
   
-  i:hover {
-    color: #fff568;
-  }
