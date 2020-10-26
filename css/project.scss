@@ -1,0 +1,113 @@
+.project-header {
+    width: 100%;   
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  background-image: url("theodeto.svg");
+  background-size: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #efebea;
+  margin-top: 30px;
+
+}
+
+.overview-main {
+  display: flex;
+  background-color: #C8E4E4;
+
+  article {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+  }
+
+      div {
+        width: 40%;
+      }
+
+      ul {
+        list-style: none;
+
+          li:first-of-type {
+            font-weight: bold;
+          }
+      }
+
+}
+
+.body-wrapper {
+  background-color: rgb(255, 255, 255); 
+  background-image: url();
+
+  .challenge {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+  
+        article {
+          width: 50%;
+
+        }
+
+        h2 {
+          margin-bottom: -2px;
+        }
+
+        h4 {
+          margin-bottom: -10px;
+        }
+
+        p {
+          margin-bottom: -2px;
+        }
+
+    
+        img {
+          width: auto;
+          height: 400px;
+          object-fit: cover;
+          padding-top: 20px;
+          border: none;
+
+        }
+  }
+
+}
+
+.scope-main {
+  display: flex;
+  background-color: pink;
+  margin-top: 25px;
+
+  article {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+  }
+
+      div {
+        width: 40%;
+      }
+
+      ul {
+        list-style: square;
+
+          
+      }
+
+      ul:last-child {
+            padding-top: 10px;
+          }
+
+}
+
