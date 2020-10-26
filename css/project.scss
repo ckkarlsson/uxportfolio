@@ -79,6 +79,33 @@
         }
   }
 
+  .two-img {
+    display: flex;
+
+     div {
+       width: 50%;
+       
+         img {
+           height: 240px;
+         }
+     }
+  }
+
+  .two-img-row2 {
+    display: flex;
+    justify-content: center;
+    div {
+      width: 33%;
+      margin: 15px;
+
+      img {
+        height: 500px;
+      }
+      
+    }
+
+  }
+
 }
 
 .scope-main {

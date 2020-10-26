@@ -92,6 +92,38 @@
   border: none;
 }
 
+.body-wrapper .two-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-wrapper .two-img div {
+  width: 50%;
+}
+
+.body-wrapper .two-img div img {
+  height: 240px;
+}
+
+.body-wrapper .two-img-row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body-wrapper .two-img-row2 div {
+  width: 33%;
+  margin: 15px;
+}
+
+.body-wrapper .two-img-row2 div img {
+  height: 500px;
+}
+
 .scope-main {
   display: -webkit-box;
   display: -ms-flexbox;
