@@ -168,6 +168,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .overview-main {
+    height: 100%;
+  }
+  .overview-main article {
+    padding: 10px;
+  }
+  .body-wrapper .challenge {
+    padding: 10px;
+  }
   .two-img, .two-img-row2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

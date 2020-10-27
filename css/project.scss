@@ -110,6 +110,20 @@
  }
 }
 @media only screen and (max-width: 1024px) {
+
+  .overview-main {
+    height: 100%;
+      article {
+        padding: 10px;
+      }
+  }
+
+  .body-wrapper {
+    .challenge {
+      padding: 10px;
+    }
+  }
+
   .two-img, .two-img-row2 {
       flex-direction: column;
       div {
