@@ -173,7 +173,7 @@
     background-size: 80%;
   }
   .overview-main {
-    height: 420px;
+    height: 400px;
   }
   .overview-main article {
     padding: 10px;
@@ -181,17 +181,14 @@
   .body-wrapper .challenge {
     padding: 10px;
   }
+  .body-wrapper .two-img img {
+    height: 160px;
+  }
   .two-img, .two-img-row2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .two-img div, .two-img-row2 div {
-    width: 100%;
-  }
-  .two-img img {
-    height: 160px;
   }
 }
 /*# sourceMappingURL=project.css.map */
