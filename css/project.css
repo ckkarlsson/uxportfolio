@@ -178,11 +178,19 @@
   .overview-main article {
     padding: 10px;
   }
+  .overview-main article div {
+    width: 50%;
+  }
   .body-wrapper .challenge {
     padding: 10px;
   }
-  .body-wrapper .two-img img {
-    height: 160px;
+  .body-wrapper .challenge img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 190px;
+  }
+  .body-wrapper .challenge .two-img img {
+    height: 175px;
   }
   .two-img, .two-img-row2 {
     -webkit-box-orient: vertical;
