@@ -145,6 +145,7 @@
                 width: 100%;
                 margin: 0;
               img {
+                  height: 175px;
                   object-fit: contain;
              }
             }
@@ -166,5 +167,10 @@
   .two-img, .two-img-row2 {
       flex-direction: column;
      
+ }
+
+ .scope-main {
+   padding: 10px;
+   
  }
 }

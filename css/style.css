@@ -159,6 +159,9 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+  .header {
+    margin: 8px;
+  }
   .header h4 {
     font-size: 14px;
   }

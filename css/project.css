@@ -199,6 +199,7 @@
     margin: 0;
   }
   .body-wrapper .challenge .two-img div img {
+    height: 175px;
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -215,6 +216,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .scope-main {
+    padding: 10px;
   }
 }
 /*# sourceMappingURL=project.css.map */
