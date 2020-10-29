@@ -140,9 +140,24 @@
             height: 190px;
           }
           .two-img {
+
+              div {
+                width: 100%;
+                margin: 0;
               img {
-                  height: 175px;
+                  object-fit: contain;
              }
+            }
+         }
+
+         .two-img-row2 {
+          div {
+            width: 100%;
+            margin: 0;
+            img {
+              object-fit: contain;
+            }
+          }
          }
      }
 
@@ -150,5 +165,6 @@
  }
   .two-img, .two-img-row2 {
       flex-direction: column;
+     
  }
 }
