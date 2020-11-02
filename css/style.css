@@ -83,8 +83,8 @@ html, body {
   width: 40%;
   margin: 20px;
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 20px 40px -30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 20px 40px -30px rgba(0, 0, 0, 0.5);
 }
 
 .projects-main div:hover, .projects-main div .overlay-text {
