@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 $bg: #fff;
 $text: #382b22;
 $light-pink: #fff0f0;
@@ -18,6 +20,15 @@ $pink-shadow: #ffe3e2;
                 text-align: center;
                 padding-top: 0px;
                 margin-top: -10px;
+                font-family: 'VT323', monospace;
+
+                    h2 {
+                      font-size: 40px;
+                    }
+
+                    h3 {
+                      font-size: 24px;
+                    }
 
                     img {
                         height: 500px;

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 .notwork-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,6 +21,15 @@
   text-align: center;
   padding-top: 0px;
   margin-top: -10px;
+  font-family: 'VT323', monospace;
+}
+
+.notwork-wrapper div h2 {
+  font-size: 40px;
+}
+
+.notwork-wrapper div h3 {
+  font-size: 24px;
 }
 
 .notwork-wrapper div img {
