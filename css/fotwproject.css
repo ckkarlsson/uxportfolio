@@ -99,6 +99,10 @@
   border: none;
 }
 
+.body-wrapper .challenge li {
+  margin: 10px;
+}
+
 .body-wrapper .two-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -149,7 +153,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: pink;
+  background-color: #e6e4f8;
   margin-top: 25px;
 }
 
